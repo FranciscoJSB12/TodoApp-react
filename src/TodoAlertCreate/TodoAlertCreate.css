@@ -1,0 +1,38 @@
+.TodoAlertCreate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border: 2px solid #03045e;
+    border-radius: 8px;
+    background-color: #FFF;
+    height: fit-content;
+    width: 100%;
+}
+.TodoAlertCreate p {
+    color: #03045e;
+    font-size: 18px;
+    text-align: center;
+    height: fit-content;
+}
+.TodoAlertCreate-icon {
+    font-size: 50px;
+}
+@media (max-width: 730px) {
+    .TodoAlertCreate p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 500px) {
+    .TodoAlertCreate {
+        width: 100%;
+    }
+    .TodoAlertCreate p {
+        font-size: 14px;
+        width: 150px;
+    }
+    .TodoAlertCreate-icon{
+        font-size: 32px;
+    }
+}

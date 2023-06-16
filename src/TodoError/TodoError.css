@@ -1,0 +1,38 @@
+.TodoError {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border: 2px solid #03045e;
+    border-radius: 8px;
+    background-color: #FFF;
+    height: fit-content;
+}
+.TodoError p {
+    color: #03045e;
+    font-size: 18px;
+    text-align: center;
+    height: fit-content;
+}
+.TodoError-icon {
+    font-size: 50px;
+    cursor: pointer;
+}
+@media (max-width: 730px) {
+    .TodoError p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 500px) {
+    .TodoError {
+        width: 100%;
+    }
+    .TodoError p {
+        font-size: 14px;
+        width: 150px;
+    }
+    .TodoError-icon {
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,28 @@
+.TodoSearch {
+    width: 80%;
+    height: 50px;
+    padding: 6px 24px;
+    border-radius: 24px;
+    font-size: 18px;
+    margin: 32px 0;
+    color: #03045e;
+    border: 2px solid #03045e;
+    transition: .1s;
+}
+.TodoSearch:focus {
+    outline: 2px solid #00b4d8;
+}
+.TodoSearch::placeholder {
+    color: #03045e;
+}
+@media (max-width: 730px) {
+    .TodoSearch {
+        font-size: 16px;
+    }
+}
+@media (max-width: 500px) {
+    .TodoSearch {
+        font-size: 14px;
+    }
+}
+

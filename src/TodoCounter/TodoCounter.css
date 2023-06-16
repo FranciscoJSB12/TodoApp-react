@@ -1,0 +1,15 @@
+.TodoCounter {
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+}
+@media (max-width: 730px) {
+    .TodoCounter {
+        font-size: 26px;
+    }
+}
+@media (max-width: 500px) {
+    .TodoCounter {
+        font-size: 22px;
+    }
+}

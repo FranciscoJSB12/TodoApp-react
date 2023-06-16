@@ -1,0 +1,37 @@
+.CreateTodoButton-container {
+    position: fixed;
+    width: 100vw;
+    height: 82px;
+    background-image: linear-gradient(to left,#03045e,#023e8a,#00b4d8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+.CreateTodoButton {
+    background-image: linear-gradient(to left top,#03045e,#023e8a,#00b4d8);
+    padding: 0.5em 3em;
+    border: 2px solid;
+    border-radius: 0.3em;
+    color: #FFF;
+    font-size: 18px;
+    transition: .3s;
+    font-weight: 500;
+}
+.CreateTodoButton:hover {
+    background-image: linear-gradient(to right bottom,#03045e,#023e8a,#00b4d8);
+    box-shadow: 0 0.8em 1em -0.6em #FFF;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+@media (max-width: 730px) {
+    .CreateTodoButton {
+        font-size: 16px;
+    }
+}
+@media (max-width: 500px) {
+    .CreateTodoButton {
+        font-size: 14px;
+    }
+}

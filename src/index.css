@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 15% 80px;
+    position: relative;
+    background-image: linear-gradient(to left,#03045e,#023e8a,#00b4d8);
+}
+@media (max-width: 650px) {
+    #root {
+        padding: 30px 5% 80px;
+    }
+}
+@media (max-width: 300px) {
+    #root {
+        padding: 30px 2% 80px;
+    }
+}
