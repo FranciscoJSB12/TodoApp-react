@@ -15,7 +15,7 @@
     border: 1px solid;
     border-radius: 0.3em;
     color: #FFF;
-    font-size: 16px;
+    font-size: 20px;
     transition: .3s;
     font-weight: 500;
 }
@@ -27,11 +27,6 @@
 }
 @media (max-width: 730px) {
     .CreateTodoButton {
-        font-size: 14px;
-    }
-}
-@media (max-width: 500px) {
-    .CreateTodoButton {
-        font-size: 12px;
+        font-size: 18px;
     }
 }
